@@ -1,0 +1,573 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Seções Gerais */
+section {
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Introdução */
+#intro .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 30px;
+    transition: transform 0.3s;
+}
+
+#intro .card:hover {
+    transform: translateY(-5px);
+}
+
+#intro h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+#intro p {
+    color: #555;
+}
+
+/* Benefícios */
+#benefits {
+    background-color: #f0f8ff;
+    padding: 60px 20px;
+}
+
+#benefits .benefit {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#benefits h3 {
+    color: #007BFF;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Cursos e Programas */
+#courses {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#courses h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#courses ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Soluções Corporativas */
+#corporate ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Recursos gratuitos */
+#resources .row div {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Histórias de Sucesso */
+#success-stories {
+    background-color: #f0f8ff;
+    padding: 60px 20px;
+}
+
+#success-stories .student {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Contato */
+#contact {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #cce7ff;
+}
+#courses {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#courses h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#courses .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#courses .card:hover {
+    transform: translateY(-5px);
+}
+
+#courses .card-title {
+    color: #007BFF;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#courses .card-text {
+    color: #555;
+}
+
+#courses .btn-primary {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#courses .btn-primary:hover {
+    background-color: #0056b3;
+}
+#resources {
+    padding: 40px 0;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+#resources h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#resources .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#resources .card:hover {
+    transform: translateY(-5px);
+}
+
+#resources .icon {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+#resources .card-title {
+    font-size: 1.3rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#resources .card-text {
+    color: #555;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Seções Gerais */
+section {
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Introdução */
+#intro .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 30px;
+    transition: transform 0.3s;
+}
+
+#intro .card:hover {
+    transform: translateY(-5px);
+}
+
+#intro h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+#intro p {
+    color: #555;
+}
+
+/* Benefícios */
+#benefits {
+    background-color: #f0f8ff;
+    padding: 60px 20px;
+}
+
+#benefits .benefit {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#benefits h3 {
+    color: #007BFF;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Cursos e Programas */
+#courses {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#courses h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#courses ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Soluções Corporativas */
+#corporate ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Recursos gratuitos */
+#resources .row div {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Histórias de Sucesso */
+#success-stories {
+    background-color: #f0f8ff;
+    padding: 60px 20px;
+}
+
+#success-stories .student {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Contato */
+#contact {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #cce7ff;
+}
+#courses {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#courses h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#courses .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#courses .card:hover {
+    transform: translateY(-5px);
+}
+
+#courses .card-title {
+    color: #007BFF;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#courses .card-text {
+    color: #555;
+}
+
+#courses .btn-primary {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#courses .btn-primary:hover {
+    background-color: #0056b3;
+}
+#resources {
+    padding: 40px 0;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+#resources h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#resources .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#resources .card:hover {
+    transform: translateY(-5px);
+}
+
+#resources .icon {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+#resources .card-title {
+    font-size: 1.3rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#resources .card-text {
+    color: #555;
+}
+#success-stories {
+    padding: 40px 0;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+#success-stories h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#success-stories .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+#success-stories .card:hover {
+    transform: translateY(-5px);
+}
+
+#success-stories .card-title {
+    font-size: 1.3rem;
+    color: #007BFF;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#success-stories .card-text {
+    color: #555;
+    font-style: italic;
+}
+
+#success-stories img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#contact {
+    padding: 40px 0;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact .btn-primary {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#contact .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#contact .contact-info a {
+    color: #07519c;
+    text-decoration: none;
+}
+
+#contact .contact-info a:hover {
+    text-decoration: underline;
+}
